@@ -1,0 +1,180 @@
+{
+  "posts": [
+   {
+  "requestId": "EE0713F8-D244-4B3E-9475-3400CD9CB5A8",
+  "customerId": "9000",
+  "campaign": {
+    "id": "100000",
+    "validations": {
+      "headers": {
+        "results": [
+          {
+            "result": "WARNING",
+            "description": "INFO_HEADERS_WARNING"
+          },
+          {
+            "result": "SUCCESS",
+            "description": "INFO_HEADERS_SUCCESS"
+          }
+        ]
+      },
+      "subject": {
+        "results": [
+          {
+            "result": "ERROR",
+            "description": "INFO_SUBJECT_TOO_SHORT",
+            "start": "1",
+            "end": "12",
+            "details": "Viagra!"
+          },
+          {
+            "result": "ERROR",
+            "description": "INFO_SUBJECT_BLOCKEDWORD",
+            "start": "1",
+            "end": "12",
+            "details": "Viagra!"
+          },
+          {
+            "result": "WARNING",
+            "description": "INFO_SUBJECT_WARNING",
+            "start": "1",
+            "end": "12",
+            "details": "Viagra!"
+          },
+          {
+            "result": "SUCCESS",
+            "description": "INFO_SUBJECT_SUCCESS"
+          },
+          {
+            "result": "SUCCESS",
+            "description": "INFO_SUBJECT_SUCCESS"
+          }
+        ],
+        "contentLength": "50"
+      },
+      "body": {
+        "results": [
+          {
+            "result": "SUCCESS",
+            "description": "INFO_BODY_SUCCESS"
+          },
+          {
+            "result": "SUCCESS",
+            "description": "INFO_BODY_SUCCESS"
+          },
+          {
+            "result": "ERROR",
+            "description": "INFO_BODY_IMAGE_ALT",
+            "start": "200",
+            "end": "230",
+            "details": "<html>....[[<IMG dfdsf />]]...</html>"
+          },
+          {
+            "result": "ERROR",
+            "description": "INFO_BODY_IMAGE_ALT",
+            "start": "200",
+            "end": "230",
+            "details": "<html>....[[<IMG dfdsf />]]...</html>"
+          }
+        ]
+      },
+      "footer": {
+        "results": [
+          {
+            "result": "SUCCESS",
+            "description": "INFO_SUBJECT_SUCCESS"
+          }
+        ]
+      }
+    }
+  }
+}
+  ],
+  "profile": {
+    "name": "validations""
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
