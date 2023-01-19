@@ -91,6 +91,61 @@
       }
     }
   ],
+  "engagementScore": [
+    {
+      "id": 1,
+      "requestId": "EE0713F8-D244-4B3E-9475-3400CD9CB5A8",
+      "customerId": "9000",
+      "deliverability": {
+        "clusterId": "1",
+        "score": "90",
+        "updatedAt": "2022-12-30T00:00:00Z",
+        "cluster": {
+          "min": "30",
+          "max": "99",
+          "minNormal": "24",
+          "maxNormal": "110"
+        },
+        "rates": {
+          "open": "9.20",
+          "click": "0.23",
+          "optOut": "0.03",
+          "sent": "43232021",
+          "clickThrough": "0.9872"
+        },
+        "global": {
+          "min": {
+            "open": "6.20",
+            "click": "0.43",
+            "optOut": "0.56",
+            "percentile": "0.05",
+            "clickThrough": "0.9872"
+          },
+          "max": {
+            "open": "56.98",
+            "click": "9.43",
+            "optOut": "0.0043",
+            "percentile": "0.95",
+            "clickThrough": "28.65"
+          },
+          "minNormal": {
+            "open": "8.5",
+            "click": "0.476",
+            "optOut": "0.36",
+            "percentile": "0.01",
+            "clickThrough": "4.9872"
+          },
+          "maxNormal": {
+            "open": "16.98",
+            "click": "1.43",
+            "optOut": "0.0243",
+            "percentile": "0.43",
+            "clickThrough": "9.65"
+          }
+        }
+      }
+    }
+  ],
   "profile": {
     "name": "validations"
   }
